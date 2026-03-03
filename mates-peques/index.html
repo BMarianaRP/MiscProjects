@@ -1,20 +1,40 @@
-<html>
+<!-- Compact Version of Math Game for Mobile Screens -->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Mates Peques</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Game</title>
+    <style>
+        body {
+            font-size: 14px; /* Reduced font size */
+            padding: 10px; /* Reduced padding */
+            margin: 0;
+            overflow-x: hidden;
+        }
+        .button {
+            padding: 5px 10px; /* Compact button padding */
+            margin: 5px;
+            font-size: 12px; /* Smaller font for buttons */
+        }
+        /* Additional styles to ensure mobile friendliness */
+        .game-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        /* Other game styles go here */
+    </style>
 </head>
 <body>
-    <header class="text-xl p-3">
-        <h1>Mates Peques</h1>
-    </header>
-    <div class="container p-3">
-        <div class="gap-2">
-            <button class="btn text-sm">Start</button>
-            <button class="btn text-sm">Next</button>
-        </div>
-        <div class="score text-xs">
-            Score: 10
-        </div>
+    <div class="game-container">
+        <h1>Math Game</h1>
+        <!-- Game content goes here -->
+        <button class="button">Start Game</button>
+        <!-- Additional buttons and game features -->
     </div>
+    <script>
+        // JavaScript for game functionality goes here
+    </script>
 </body>
 </html>
